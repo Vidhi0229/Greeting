@@ -8,7 +8,15 @@
     text-align: center;
 }
 .center {
-    margin-top: 10vh;
+    display: block;
+    height: 100%;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56%;
+    margin-top: 15vh;
+
 }
 
 .prompt{
@@ -64,74 +72,6 @@ input[type=text]{
     text-align: center;
 }   
 
-
-
-@media (max-width: 1440px){
-    .box{
-        width: 55vw;
-        height: 70vh;
-        background-color: rgb(137, 137, 233);
-        border-radius: 2vh;
-        text-align: center;
-    }
-    .center {
-        margin-top: 10vh;
-    }
-    
-    .prompt{
-        font-size: 3vh;
-        font-family: 'Josefin Sans', sans-serif;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        top: 21vh;
-    
-    }
-    
-    .input{
-        border: none;
-        width: 28vw;
-        height: 2vh;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        top: 21vh;
-        font-size: 2vh;
-        
-    }
-    
-    input[type=text]{
-        border: none;
-        outline: none;
-        border-bottom: 1px solid rgb(238, 226, 226);
-        background-color: rgb(137, 137, 233);;
-    }
-    
-    .message{
-        font-size: 3vh;
-        font-family: 'Josefin Sans', sans-serif;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        top: 25vh;
-    
-    }
-    
-    .button {
-        position: relative;
-        padding-top: 0.9vh;
-        top: 23vh;
-        width: 22vw;
-        height: 3vh;
-        outline: none;
-        border: none;
-        border-radius: 2vh;
-        font-size: 2vh;
-        font-family: 'Josefin Sans', sans-serif;
-        text-align: center;
-    }   
-    
-}
 
 @media (max-width: 425px){
     .box{
