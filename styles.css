@@ -75,7 +75,7 @@ input[type=text]{
 
 @media (max-width: 425px){
     .box{
-        width: 100%;
+        width: 90vw;
         height: 70vh;
         background-color: rgb(137, 137, 233);
         border-radius: 2vh;
